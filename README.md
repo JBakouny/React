@@ -24,7 +24,15 @@ This first section is part of the ESIB course, it explains how to create your in
     HOST=localhost
     ```
 
-4. Run the below command to start your application:
+    Then install the following dependencies:
+ 
+    ```[bash]
+    yarn add bootstrap@4.0.0
+    yarn add reactstrap@5.0.0
+    yarn add react-popper@0.9.2
+    ```
+
+4. Run the below commands to start your application:
 
     ```[bash]
     yarn start

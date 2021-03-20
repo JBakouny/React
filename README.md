@@ -1,4 +1,50 @@
 
+# Using the code in this repo
+
+1. Installations:
+
+    a. Make sure [Node.js](https://nodejs.org/en/) is installed.
+
+    b. Make sure yarn in installed. If not, run the below command after :
+
+    ```[bash]
+    npm install -g yarn 
+    ```
+
+    c. Make sure the json-server is installed. If not, run the below command:
+
+    ```[bash]
+    npm install -g json-server
+    ```
+
+2. In a folder of your choice, run the following command:
+
+    ```[bash]
+    git clone https://github.com/JBakouny/React
+    ```
+
+3. Run the json-server by running commands:
+
+    ```[bash]
+    cd React/json-server
+    json-server --watch db.json -p 3001 -d 2000
+    ```
+
+4. Open a new terminal or command line window and use yarn to install your dependencies by running the below commands in the folder where you cloned your repo:
+
+    ```[bash]  
+    cd React
+    yarn
+    ```
+
+5. Run the following command to start the web app:
+
+    ```[bash]
+    HOST=localhost
+    yarn start
+    ```
+
+
 # Creating the Initial React App
 
 This first section is part of the ESIB course, it explains how to create your initial react app with Yarn.

@@ -1,5 +1,6 @@
+# A React Web App that integrates with the JSON-server
 
-# Using the code in this repo
+## Using the code in this repo
 
 1. Installations:
 
@@ -44,7 +45,7 @@
     yarn start
     ```
 
-# Creating the Initial React App
+## Creating the Initial React App
 
 This first section is part of the ESIB course, it explains how to create your initial react app with Yarn.
 

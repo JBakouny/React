@@ -43,7 +43,7 @@ export const postComment = (dishId, rating, author, comment) => (dispatch) => {
 
 export const fetchDishes = () => (dispatch) => {
 
-    dispatch(dishesLoading(true));
+    dispatch(dishesLoading());
 
     return fetch(baseUrl + 'dishes')
     .then(response => {

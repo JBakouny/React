@@ -44,7 +44,6 @@
     yarn start
     ```
 
-
 # Creating the Initial React App
 
 This first section is part of the ESIB course, it explains how to create your initial react app with Yarn.
@@ -71,7 +70,7 @@ This first section is part of the ESIB course, it explains how to create your in
     ```
 
     Then install the following dependencies:
- 
+
     ```[bash]
     yarn add bootstrap@4.0.0
     yarn add reactstrap@5.0.0
@@ -89,7 +88,6 @@ This first section is part of the ESIB course, it explains how to create your in
 5. Modify [src/App.js](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd#diff-3d74dddefb6e35fbffe3c76ec0712d5c416352d9449e2fcc8210a9dee57dff67) and [src/index.js](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd#diff-bfe9874d239014961b1ae4e89875a6155667db834a410aaaa2ebe3cf89820556) in accordance with the [Configure React](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd) commit.
 
     View the changes by refreshing [http://localhost:3000/](http://localhost:3000/)
-
 
 # Getting Started with Create React App
 

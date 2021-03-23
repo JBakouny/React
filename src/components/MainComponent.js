@@ -71,6 +71,8 @@ class Main extends Component {
       );
     };
 
+    // more information on CSSTransition and TransitionGroup are available on the below link:
+    // http://reactcommunity.org/react-transition-group/transition
     return (
       <div>
         <Header />

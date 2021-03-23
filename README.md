@@ -1,5 +1,13 @@
 # A React Web App that integrates with the JSON-server
 
+## Hooks
+
+Hooks are not used in this app but the app could be modified to use hooks with functional components instead of classes. More information on hooks are available [here](https://reactjs.org/docs/hooks-overview.html).
+
+JavaScript [array destruction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax might also be useful to learn when developping and viewing code related to hooks.
+
+You need to learn hooks to understand some code on the internet like the online explaining how to create [React transitions for animations](http://reactcommunity.org/react-transition-group/transition).
+
 ## Using the code in this repo
 
 1. Installations:

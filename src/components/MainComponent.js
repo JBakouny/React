@@ -59,6 +59,8 @@ class Main extends Component {
       );
     }
 
+    // match is one of the props passed by the React Router, see below:
+    // https://www.freecodecamp.org/news/hitchhikers-guide-to-react-router-v4-4b12e369d10/
     const DishWithId = ({match}) => {
       return(
           <DishDetail dish={this.props.dishes.dishes.filter((dish) => dish.id === parseInt(match.params.dishId,10))[0]}

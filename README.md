@@ -1,14 +1,6 @@
-# A React Web App that integrates with the JSON-server
+# A React Web App that integrates with the Node.js Express MongoDB backend
 
-## Hooks
-
-Hooks are not used in this app but the app could be modified to use hooks with functional components instead of classes. More information on hooks are available [here](https://reactjs.org/docs/hooks-overview.html).
-
-JavaScript [array destruction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax might also be useful to learn when developping and viewing code related to hooks.
-
-You need to learn hooks to understand some code on the internet like the online explaining how to create [React transitions for animations](http://reactcommunity.org/react-transition-group/transition).
-
-## Using the code in this repo
+## Running the Integrated Application
 
 1. Installations:
 
@@ -20,28 +12,28 @@ You need to learn hooks to understand some code on the internet like the online 
     npm install -g yarn 
     ```
 
-    c. Make sure the json-server is installed. If not, run the below command:
+    c. Make sure MongoDB is installed on your local machine.
+
+2. Make sure the MongoDB database is up and running on the path specified in [config.js](https://github.com/JBakouny/NodeBackend/blob/react-client-integration/config.js) in the backend-code. To run MongoDB locally, execute the below command in a folder containing a directory named "data" :
 
     ```[bash]
-    npm install -g json-server
+    mongod --dbpath=data --bind_ip 127.0.0.1
     ```
 
-2. In a folder of your choice, run the following command:
+3. Get the back-end's code from [the GitHub branch "react-client-integration"](https://github.com/JBakouny/NodeBackend/tree/react-client-integration) and run the Node.js REST API by executing the below command in the NodeBackend directory that will sync from GitHub:
+
+    ```[bash]
+    git clone https://github.com/JBakouny/NodeBackend
+    git checkout react-client-integration
+    cd NodeBackend
+    npm install
+    npm start
+    ```
+
+4. In another folder of your choice, open a new terminal or command line window and clone the front-end code then use yarn to install your dependencies by running the below commands in the folder where you cloned your repo:
 
     ```[bash]
     git clone https://github.com/JBakouny/React
-    ```
-
-3. Run the json-server by running commands:
-
-    ```[bash]
-    cd React/json-server
-    json-server --watch db.json -p 3001 -d 2000
-    ```
-
-4. Open a new terminal or command line window and use yarn to install your dependencies by running the below commands in the folder where you cloned your repo:
-
-    ```[bash]  
     cd React
     yarn
     ```
@@ -52,6 +44,16 @@ You need to learn hooks to understand some code on the internet like the online 
     HOST=localhost
     yarn start
     ```
+
+    If yarn asks you if it should run on another port, reply with "Y" to have it run on port 3001 instead of port 3000. This conforms with the [CORS](https://github.com/JBakouny/NodeBackend/blob/react-client-integration/routes/cors.js) configurations in the backend's code where the whitelist contains "http://localhost:3001".  
+
+## Hooks
+
+Hooks are not used in this app but the app could be modified to use hooks with functional components instead of classes. More information on hooks are available [here](https://reactjs.org/docs/hooks-overview.html).
+
+JavaScript [array destruction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax might also be useful to learn when developping and viewing code related to hooks.
+
+You need to learn hooks to understand some code on the internet like the online explaining how to create [React transitions for animations](http://reactcommunity.org/react-transition-group/transition).
 
 ## Creating the Initial React App
 

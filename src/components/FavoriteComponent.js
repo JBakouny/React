@@ -41,7 +41,7 @@ const Favorites = (props) => {
             </div>
         )
     }
-    else if (props.favorites.favorites && props.favorites.favorites.dishes) {
+    else if (props.favorites.favorites) {
         
         const favorites = props.favorites.favorites.dishes.map((dish) => {
             return (

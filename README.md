@@ -47,6 +47,16 @@
 
     If yarn asks you if it should run on another port, reply with "Y" to have it run on port 3001 instead of port 3000. This conforms with the [CORS](https://github.com/JBakouny/NodeBackend/blob/react-client-integration/routes/cors.js) configurations in the backend's code where the whitelist contains "http://localhost:3001".  
 
+## Deploying your Mobile First Web Site on the cloud
+
+Here are some cloud providers that ease the deployment of each of the three parts of full stack application:
+
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) for the database deployment
+
+- [Heroku](https://www.heroku.com/nodejs) for the Node.js/Express back-end which constitutes a REST API
+
+- The [React deployment guide](https://create-react-app.dev/docs/deployment/) would be useful to chose a server that can deliver your Single Page Application (SPA) front-end. Notably, [GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) is a good free choice if you plan to make your code publicly available. Another option uses [Heroku](https://blog.heroku.com/deploying-react-with-zero-configuration) and is also detailed [here](https://create-react-app.dev/docs/deployment/#heroku).
+
 ## Hooks
 
 Hooks are not used in this app but the app could be modified to use hooks with functional components instead of classes. More information on hooks are available [here](https://reactjs.org/docs/hooks-overview.html).
@@ -100,15 +110,15 @@ This first section is part of the ESIB course, it explains how to create your in
 
     View the changes by refreshing [http://localhost:3000/](http://localhost:3000/)
 
-# Getting Started with Create React App
+## Official Documentation: Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -116,12 +126,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+#### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+#### `yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -131,7 +141,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+#### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -141,32 +151,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+#### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+#### Making a Progressive Web App
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+#### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+#### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+#### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

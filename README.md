@@ -109,6 +109,14 @@ This first section is part of the ESIB course, it explains how to create your in
 5. Modify [src/App.js](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd#diff-3d74dddefb6e35fbffe3c76ec0712d5c416352d9449e2fcc8210a9dee57dff67) and [src/index.js](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd#diff-bfe9874d239014961b1ae4e89875a6155667db834a410aaaa2ebe3cf89820556) in accordance with the [Configure React](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd) commit.
 
     View the changes by refreshing [http://localhost:3000/](http://localhost:3000/)
+    
+## Progressive Web Apps (PWA)
+
+PWAs enable the implementation of of Mobile and Web apps that the same code:
+
+- https://create-react-app.dev/docs/making-a-progressive-web-app/
+- https://blog.logrocket.com/from-create-react-app-to-pwa/
+- https://www.codica.com/blog/how-to-create-pwa-with-react/
 
 ## Official Documentation: Getting Started with Create React App
 

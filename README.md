@@ -47,6 +47,10 @@
 
     If yarn asks you if it should run on another port, reply with "Y" to have it run on port 3001 instead of port 3000. This conforms with the [CORS](https://github.com/JBakouny/NodeBackend/blob/react-client-integration/routes/cors.js) configurations in the backend's code where the whitelist contains "http://localhost:3001".  
 
+## Routing
+
+The [React router](https://reactrouter.com/) enables you to navigate through pages, it also gives you three important props match, location and history as explained [here](https://www.freecodecamp.org/news/hitchhikers-guide-to-react-router-v4-4b12e369d10/).
+
 ## Deploying your Mobile First Web Site on the cloud
 
 Here are some cloud providers that ease the deployment of each of the three parts of full stack application:

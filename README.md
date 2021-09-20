@@ -83,7 +83,7 @@ This first section is part of the ESIB course, it explains how to create your in
 
     ```[bash]
     yarn add create-react-app
-    yarn create-react-app conFusion
+    yarn create-react-app confusion
     ```
 
     You should commit your ```yarn.lock``` in git, do not add it to [.gitignore](.gitignore)

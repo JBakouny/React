@@ -70,7 +70,7 @@ class Main extends Component {
     //https://www.freecodecamp.org/news/hitchhikers-guide-to-react-router-v4-4b12e369d10/
     const DishWithId = ({match}) => {
       return(
-        this.props.auth.isAuthenticated && this.props.favorites.favorites.dishes
+        this.props.auth.isAuthenticated && this.props.favorites.favorites && this.props.favorites.favorites.dishes
         ?
         <DishDetail dish={this.props.dishes.dishes.filter((dish) => dish._id === match.params.dishId)[0]}
           isLoading={this.props.dishes.isLoading}
